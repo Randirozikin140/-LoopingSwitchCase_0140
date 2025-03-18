@@ -21,4 +21,14 @@ int main()
         cout << "3. Exit" << endl;
         cin >> pilihan;
 
-        
+        switch(pilihan){
+            case 1 :
+                cout << "Menghitung Luas Persegi Panjang" << endl;
+                cout << "Masukkan panjang : ";
+                cin >> panjang;
+                cout << "Masukkan lebar : ";
+                cin >> lebar;
+                cout << "luas pERSEGI pANJANG ="
+                << luasPersegiPanjang(panjang,lebar) << endl;
+                break;
+            
